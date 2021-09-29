@@ -1,18 +1,13 @@
 package br.com.zupacademy.transacoes.model;
 
-import org.hibernate.id.UUIDGenerator;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 
 @Entity
 public class Cartao {
 
     @Id
-    @GeneratedValue(generator = UUIDGenerator.UUID_GEN_STRATEGY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(unique = true)
@@ -30,4 +25,10 @@ public class Cartao {
         this.numeroCartao = id;
         this.email = email;
     }
+
+    public Long getId() { return id; }
+
+    public String getNumeroCartao() { return numeroCartao; }
+
+    public String getEmail() { return email; }
 }
