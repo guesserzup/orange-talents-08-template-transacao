@@ -1,10 +1,11 @@
-package br.com.zupacademy.transacoes.form;
+package br.com.zupacademy.transacoes.transacao;
 
-import br.com.zupacademy.transacoes.model.Cartao;
-import br.com.zupacademy.transacoes.model.Estabelecimento;
-import br.com.zupacademy.transacoes.model.Transacao;
-import br.com.zupacademy.transacoes.repository.CartaoRepository;
-import br.com.zupacademy.transacoes.repository.EstabelecimentoRepository;
+import br.com.zupacademy.transacoes.cartao.Cartao;
+import br.com.zupacademy.transacoes.cartao.CartaoForm;
+import br.com.zupacademy.transacoes.estabelecimento.Estabelecimento;
+import br.com.zupacademy.transacoes.estabelecimento.EstabelecimentoForm;
+import br.com.zupacademy.transacoes.cartao.CartaoRepository;
+import br.com.zupacademy.transacoes.estabelecimento.EstabelecimentoRepository;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

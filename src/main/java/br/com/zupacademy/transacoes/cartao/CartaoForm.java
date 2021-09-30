@@ -1,6 +1,4 @@
-package br.com.zupacademy.transacoes.form;
-
-import br.com.zupacademy.transacoes.model.Cartao;
+package br.com.zupacademy.transacoes.cartao;
 
 public class CartaoForm {
 

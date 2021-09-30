@@ -1,10 +1,10 @@
 package br.com.zupacademy.transacoes.kafka;
 
-import br.com.zupacademy.transacoes.form.TransacaoForm;
-import br.com.zupacademy.transacoes.model.Transacao;
-import br.com.zupacademy.transacoes.repository.CartaoRepository;
-import br.com.zupacademy.transacoes.repository.EstabelecimentoRepository;
-import br.com.zupacademy.transacoes.repository.TransacaoRepository;
+import br.com.zupacademy.transacoes.transacao.TransacaoForm;
+import br.com.zupacademy.transacoes.transacao.Transacao;
+import br.com.zupacademy.transacoes.cartao.CartaoRepository;
+import br.com.zupacademy.transacoes.estabelecimento.EstabelecimentoRepository;
+import br.com.zupacademy.transacoes.transacao.TransacaoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

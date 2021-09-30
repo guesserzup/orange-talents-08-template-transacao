@@ -1,6 +1,5 @@
-package br.com.zupacademy.transacoes.repository;
+package br.com.zupacademy.transacoes.cartao;
 
-import br.com.zupacademy.transacoes.model.Cartao;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

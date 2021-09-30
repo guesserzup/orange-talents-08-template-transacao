@@ -1,4 +1,7 @@
-package br.com.zupacademy.transacoes.model;
+package br.com.zupacademy.transacoes.transacao;
+
+import br.com.zupacademy.transacoes.cartao.Cartao;
+import br.com.zupacademy.transacoes.estabelecimento.Estabelecimento;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -41,4 +44,6 @@ public class Transacao {
     }
 
     public BigDecimal getValor() { return valor; }
+
+    public LocalDateTime getEfetivadaEm() { return efetivadaEm; }
 }

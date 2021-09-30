@@ -1,4 +1,4 @@
-package br.com.zupacademy.transacoes.model;
+package br.com.zupacademy.transacoes.estabelecimento;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

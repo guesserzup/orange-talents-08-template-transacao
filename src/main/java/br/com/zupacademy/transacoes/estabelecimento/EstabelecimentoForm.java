@@ -1,6 +1,4 @@
-package br.com.zupacademy.transacoes.form;
-
-import br.com.zupacademy.transacoes.model.Estabelecimento;
+package br.com.zupacademy.transacoes.estabelecimento;
 
 public class EstabelecimentoForm {
 

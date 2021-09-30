@@ -1,7 +1,6 @@
 package br.com.zupacademy.transacoes.kafka;
 
-import br.com.zupacademy.transacoes.form.TransacaoForm;
-import org.apache.kafka.clients.consumer.KafkaConsumer;
+import br.com.zupacademy.transacoes.transacao.TransacaoForm;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

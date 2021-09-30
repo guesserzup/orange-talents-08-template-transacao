@@ -1,4 +1,4 @@
-package br.com.zupacademy.transacoes.model;
+package br.com.zupacademy.transacoes.cartao;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;

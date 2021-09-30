@@ -1,6 +1,5 @@
-package br.com.zupacademy.transacoes.repository;
+package br.com.zupacademy.transacoes.estabelecimento;
 
-import br.com.zupacademy.transacoes.model.Estabelecimento;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EstabelecimentoRepository extends JpaRepository<Estabelecimento, Long> {
